@@ -19,7 +19,7 @@ function Product({ id, title, price, image, rating }) {
     });
   };
   return (
-    <div className="product" key={id}>
+    <div className="product lax" key={id} data-lax-preset="fadeIn">
       <div className="product__info">
         <p>{title}</p>
         <p className="product__price">
